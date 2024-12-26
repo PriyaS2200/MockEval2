@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#quiz-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+input {
+    border: none;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: grey;
+    font-family: cursive;
+    font-weight: bold;
+}

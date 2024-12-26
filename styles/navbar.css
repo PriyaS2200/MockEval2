@@ -1,0 +1,15 @@
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: turquoise;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(216, 151, 30);
+    text-shadow: 2px 2px 5px rgb(211, 185, 136);
+}
