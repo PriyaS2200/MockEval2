@@ -15,8 +15,15 @@ form.addEventListener("submit", function(){
     let optD = optionD.value;
     let correctAns = document.getElementById("correctOption");
     let correctOpt = correctAns.value;
-    let questionsObj = {ques,optA,optB,optC,optD,correctOpt};
-
+    let questionsObj = {
+        title: ques ,
+        optionA: optA,
+        optionB: optB,
+        optionC: optC,
+        optionD: optD,
+        correctOption: correctOpt,
+        reviewStatus: false
+      }
     fetch(url,{
         method: 'POST',
         headers: {
